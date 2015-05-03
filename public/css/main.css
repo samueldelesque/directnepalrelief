@@ -1,0 +1,62 @@
+.main{
+	background-image: url(../img/bgd.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+}
+form,input,button{
+	border:none;
+}
+
+.wrap{
+	margin: 0 auto;
+	width: 600px;
+	max-width: 90%;
+	background: rgba(0,0,0,0.8);
+	padding: 50px;
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+	font-weight: 100;
+	color: #fff;
+}
+.quote .author{
+	font-style: normal;
+	color:#bbb;
+	font-size: 14px;
+}
+.wrap p{
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: 100;
+}
+.ctas{
+	margin: 20px 0;
+}
+.ctas form button.cta{
+	display: block;
+	width: 90%;
+	margin:5px auto;
+	padding: 12px;
+	background: #2A7B3C;
+	color: #fff;
+	border-radius:5px;
+}
+.ctas form button.cta:hover{
+	background: #43A753;
+}
+p.disclaimer{
+	font-size: 11px;
+	color: #ddd;
+}
+
+.footer{
+	background: #111;
+	padding: 50px;
+	color: #999;
+}
