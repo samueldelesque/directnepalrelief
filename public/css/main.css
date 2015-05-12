@@ -24,6 +24,9 @@ h1{
 	font-weight: 100;
 	color: #fff;
 }
+.cover{
+	margin: 20px -20px;
+}
 .cover img{
 	width: 100%;
 }
