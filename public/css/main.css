@@ -24,6 +24,9 @@ h1{
 	font-weight: 100;
 	color: #fff;
 }
+.cover img{
+	width: 100%;
+}
 .quote .author{
 	font-style: normal;
 	color:#bbb;
