@@ -1,5 +1,5 @@
 .main{
-	background-image: url(../img/bgd.jpg);
+	background-image: url(../img/cover.jpg);
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: 100%;
@@ -28,6 +28,14 @@ h1{
 	font-style: normal;
 	color:#bbb;
 	font-size: 14px;
+	vertical-align: center;
+	line-height: 40px;
+}
+.quote .author img{
+	line-height: 40px;
+	vertical-align: center;
+	width: 40px;
+	height: 40px;
 }
 .wrap p{
 	font-size: 16px;
