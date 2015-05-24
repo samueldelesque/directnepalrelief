@@ -15,6 +15,9 @@
 	<div class="main">
 		<div class="wrap">
 			<h1>Nepal Earthquake Relief - Sindhupalchowk</h1>
+			<div class="cover">
+				<img src="img/top.jpg" alt="Direct Nepal Relief team working with nepalese army">
+			</div>
 			<div class="quote">
 			<p>Nepal Earthquake Relief Update: We received a shipment of 1700 lbs of food from our friends in India today. Thank you to Jet Airways and Sweta Gurung’s connections for the free shipping. We fed the entire community at the Teaching Hospital tonight. Without a hospital cafeteria, families visiting patients and patients themselves were grateful for Indian made parathas (pancakes) made fresh in Mumbai this morning. We still have 400kg or so to distribute tomorrow. With an estimated 15,000 parathas we should be able to feed at least 3,000 people.</p>
 			</div>
@@ -43,8 +46,11 @@
 			<p>Tomorrow we hope to be able to gather enough supplies for our first shipment to Chaukati. I plan to travel there the day after tomorrow with a small group of doctors and volunteers to deliver a basic first response and to assess the needs of the community. We hope to have a second larger shipment coming a few days after that once more cargo is flown in from India.</p>
 
 			<p>Please continue to support relief efforts in Nepal.</p>
-			<div class="author">- Adrian</div>
+			<div class="author"> - Adrian</div>
 			</div>
+			<br/>
+			<br/>
+			<div class="fb-like" data-share="true" data-width="100" style="width:100px;"></div>
 		</div>
 	</div>
 
@@ -53,7 +59,38 @@
 		You may contact us at <a href="mailto:nepal.relief.sindupalchowk@gmail.com">nepal.relief.sindupalchowk@gmail.com</a>
 	</div>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  appId      : '475987405891627',
+		  xfbml      : true,
+		  version    : 'v2.3'
+		});
+		FB.api(
+		    "/1567614756859788/feed",
+		    function (response) {
+		      if (response && !response.error) {
+		        /* handle the result */
+		        console.log(response);
+		      }
+		      else{
+		      	console.error(response.error);
+		      }
+		    }
+		);
+	  };
+
+	  (function(d, s, id){
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) {return;}
+		 js = d.createElement(s); js.id = id;
+		 js.src = "//connect.facebook.net/en_US/sdk.js";
+		 fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
+
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
