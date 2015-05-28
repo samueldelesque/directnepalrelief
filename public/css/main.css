@@ -70,6 +70,15 @@ h2,h3{
 .ctas form button.cta:hover{
 	background: #43A753;
 }
+.btn.fblink{
+	display: block;
+	width: 90%;
+	margin:5px auto;
+	padding: 8px;
+	background: #4E6FA7;
+	color: #fff;
+	border-radius:5px;
+}
 p.disclaimer{
 	font-size: 11px;
 	color: #ddd;
