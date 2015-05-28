@@ -1,5 +1,7 @@
 .main{
 	background-image: url(../img/cover.jpg);
+	min-height: 700px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: 100%;
