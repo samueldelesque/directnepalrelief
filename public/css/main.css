@@ -106,9 +106,12 @@ p.disclaimer{
 		padding: 20px;
 	}
 	h1{
-		font-size: 28px;
+		font-size: 26px;
 	}
 	.wrap p{
 		font-size: 14px;
+	}
+	.footer{
+		padding: 20px;
 	}
 }
