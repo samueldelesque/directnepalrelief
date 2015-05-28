@@ -20,6 +20,7 @@ form,input,button{
 	background: rgba(0,0,0,0.8);
 	padding: 50px;
 	text-align: center;
+	color:#fff;
 }
 h1{
 	font-size: 40px;
